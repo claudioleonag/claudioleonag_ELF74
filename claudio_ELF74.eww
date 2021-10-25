@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\TivaWare\examples\boards\ek-tm4c1294xl\blinky\blinky.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\TivaWare\driverlib\driverlib.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lab1\Lab 1.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lab2\Lab 2.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
