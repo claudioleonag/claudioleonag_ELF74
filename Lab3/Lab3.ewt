@@ -2848,6 +2848,12 @@
     <group>
         <name>Source</name>
         <file>
+            <name>$PROJ_DIR$\histogram.s</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\images.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\main.cpp</name>
         </file>
         <file>
@@ -2857,7 +2863,4 @@
             <name>$PROJ_DIR$\system_TM4C1294.c</name>
         </file>
     </group>
-    <file>
-        <name>$PROJ_DIR$\histogram.s</name>
-    </file>
 </project>
