@@ -35,8 +35,8 @@ void UARTIntHandler(void){
     
     if(isalpha(letter)){    //Verifica se o dígito é alfabético
       if(isupper(letter)){ //Verifica se o dígito está em uppercase
-      MAP_UARTCharPut(UART0_BASE, tolower(letter)); // Read the next character from the UART and write it back to the UART.
-      MAP_UARTCharPut(UART0_BASE, '\n'); // Jump line
+        MAP_UARTCharPut(UART0_BASE, tolower(letter)); // Read the next character from the UART and write it back to the UART.
+        MAP_UARTCharPut(UART0_BASE, '\n'); // Jump line
       }
       else{
         MAP_UARTCharPut(UART0_BASE, toupper(letter)); //Se o dígito está em lowercase
