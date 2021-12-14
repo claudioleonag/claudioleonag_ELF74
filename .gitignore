@@ -37,6 +37,9 @@ settings
 
 Files
 *.docx
+*.drawio
+*.png
+*.jpg
 #Folders
 
 RTOS/
