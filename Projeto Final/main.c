@@ -1,5 +1,5 @@
 #include "include/uart.h"
-#include "include/sample_threadx.h"
+#include "include/threads.h"
 /* Define main entry point.  */
 int main()
 {

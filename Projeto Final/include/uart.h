@@ -2,8 +2,8 @@
 #define UART_H_
 #include <stdint.h>
 
-void UARTIntHandler(void);
-void UARTSend(const uint8_t *pui8Buffer, uint32_t ui32Count);
+void UARTSend(char *command);
 void UARTStartup(void);
+float GetValue(char *sensor, char *buf);
 
 #endif // FOO_H_

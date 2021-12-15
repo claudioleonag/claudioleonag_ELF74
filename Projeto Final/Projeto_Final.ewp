@@ -2093,7 +2093,7 @@
     <group>
         <name>include</name>
         <file>
-            <name>$PROJ_DIR$\include\sample_threadx.h</name>
+            <name>$PROJ_DIR$\include\threads.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\include\uart.h</name>
@@ -2114,10 +2114,10 @@
             <name>$PROJ_DIR$\main.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\sample_threadx.c</name>
+            <name>$PROJ_DIR$\startup_ewarm.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\startup_ewarm.c</name>
+            <name>$PROJ_DIR$\threads.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\Lab5\src\tx_initialize_low_level.s</name>
